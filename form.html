@@ -135,7 +135,7 @@
                 form_data.append("inputMobileNumber", $("#inputMobileNumber").val());
 
                 try {
-                    const call = await fetch("https://console.rainfund.ai/api/src/mailchimp/sub-contact.php", {
+                    const call = await fetch("", {
                         method: "POST",
                         headers: {
                             "Content-Type": "application/x-www-form-urlencoded"
@@ -162,7 +162,7 @@
                 form_data.append("inputMessage", $("#inputMessage").val());
 
                 try {
-                    const call = await fetch("https://console.rainfund.ai/api/src/mailchimp/sub-contact.php", {
+                    const call = await fetch("", {
                         method: "POST",
                         headers: {
                             "Content-Type": "application/x-www-form-urlencoded"
