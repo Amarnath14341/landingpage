@@ -695,7 +695,22 @@ body {
     }
 }
 
-@media(min-width:320px) {
+@media(max-width:550px) {
+    .hero {
+        width: fit-content;
+    }
+    .team_img_wrapper {
+        width: fit-content;
+    }
+    .hero1 {
+        width: fit-content;
+    }
+    .container {
+        max-width: 35rem;
+    }
+}
+
+@media(max-width:320px) {
     .team_img_wrapper3 {
         width: 100%;
     }
@@ -704,7 +719,7 @@ body {
     }
 }
 
-@media (min-width:280px) {
+@media (max-width:280px) {
     body {
         width: fit-content;
     }
@@ -748,11 +763,8 @@ body {
         place-items: center;
         height: 950px;
     }
-    .details1 {
-        margin-left: -104px;
-    }
     .team_img_wrapper {}
     .details2 {
-        width: 32%;
+        width: 87%;
     }
 }
